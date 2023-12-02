@@ -1,0 +1,38 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-image: url(./endpage\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+#cong{
+    font-size: 70px;
+    margin-left: 22%;
+    margin-top: 10%;
+    padding-top: 10px;
+}
+#wonplayer{
+    color: dar;
+    margin-left: 45%;
+    font-size: 40px;
+}
+p{
+    margin-left: 40%;
+    font-size: 45px;
+    margin-top: 3%;
+}
+#homeicon{
+    width: 100px;
+    position: absolute;  
+    margin-left: 37%;
+    margin-top: 5%;
+}
+#playagain{
+    width: 100px;
+    position: absolute;  
+    margin-left: 53%;
+    margin-top: 5%;
+}

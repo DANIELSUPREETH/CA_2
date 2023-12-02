@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./INSTRUCTIONS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: black;
+    width: 600px;
+    height: 500px;
+    border-radius: 30px;
+    margin-left: 28%;
+    margin-top: 5%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3.5);
+    position: relative; /* Added to make it a positioning context for absolute positioning */
+}
+
+h1 {
+    color: goldenrod;
+    margin-left: 30%;
+}
+
+h2 {
+    margin-left: 28%;
+    color: goldenrod;
+}
+
+p {
+    color: goldenrod;
+    font-size: xx-large;
+    margin-left: 12%;
+    margin-top: 15px;
+}
+
+#cancel {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
